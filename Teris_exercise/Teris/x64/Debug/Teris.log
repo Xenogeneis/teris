@@ -1,0 +1,23 @@
+﻿  Block.cpp
+  Game.cpp
+  正在生成代码...
+C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,24): error C2039: "pushback": 不是 "my_list<Block>" 的成员
+  C:\Users\z1163\Desktop\Teris_exercise\MyList\my_list.h(221,7):
+  参见“my_list<Block>”的声明
+  
+C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,38): error C2440: “<function-style-cast>”: 无法从“int”转换为“Block”
+  C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,38):
+  “Block::Block”: 没有重载函数可以转换所有参数类型
+  	C:\Users\z1163\Desktop\Teris_exercise\Teris\Block.h(63,1):
+  	可能是“Block::Block(const Block &)”
+  		C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,38):
+  		“Block::Block(const Block &)”: 无法将参数 1 从“int”转换为“const Block &”
+  			C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,50):
+  			原因如下: 无法从“int”转换为“const Block”
+  	C:\Users\z1163\Desktop\Teris_exercise\Teris\Block.h(17,5):
+  	或    “Block::Block(std::vector<int,std::allocator<int>> &,const int &,const int &)”
+  		C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,38):
+  		“Block::Block(std::vector<int,std::allocator<int>> &,const int &,const int &)”: 无法将参数 1 从“int”转换为“std::vector<int,std::allocator<int>> &”
+  	C:\Users\z1163\Desktop\Teris_exercise\Teris\Game.cpp(183,38):
+  	尝试匹配参数列表“(int)”时
+  
